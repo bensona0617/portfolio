@@ -36,8 +36,8 @@
             - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
             - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
           -->
-        <div class="main-title">Functional Diagram of PC Rear Panel</div>
-        <div class="body-text">I created this diagram to demonstrate my experience designing clear visual documents with Adobe Illustrator.</div>
+        <div class="main-title">Airpot Coffee Machine User Guide</div>
+        <div class="body-text">Using an XML publication software, I wrote this user guide to instruct coworkers on how to brew coffee with our company's new airpot coffee machine.</div>
         <image class="project-header-image" src="../assets/images/pc-header.png" alt="Screenshot of a portion of the PC Functional Diagram">
       </div>
 
@@ -72,8 +72,8 @@
           <div class="body-text">While this was a personal project, creating the diagram helped me gain a deeper understanding of the functions of the ports on my PC. 
 		I'm proud of the visual guide that I've created, and grateful for the experience with Adobe Illustrator that inspired the project.</div>
 	  <div class="body-text">
-		<a class="button" target="_blank" href="https://drive.google.com/file/d/1CscUg6StXV6-_8jN6VETzqmhoFdbb1b2/view?usp=sharing">
-          	<span class="button-text">View the Functional Diagram</span>
+		<a class="button" target="_blank" href="https://drive.google.com/file/d/1nlpkI50VKhHFtgbGfj5DpEWS74yahG1x/view?usp=sharing">
+          	<span class="button-text">View the Full User Guide</span>
 		<image src="../assets/icons/arrow-right.svg" alt="" class="right-arrow-icon"/>
         	</a>
 	  </div>
