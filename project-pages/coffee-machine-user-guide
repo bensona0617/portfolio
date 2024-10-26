@@ -51,26 +51,30 @@
       <div id="project-details">
         <div class="subheader-text">Context</div>
         <div class="project-details-content">
-          <div class="body-text">In my role as a Technical Writer, I've developed my skills with various software in addition to writing and editing. 
-		  One area in particular that I've developed is my familiarity with Adobe products, including Adobe Illustrator.</div>
-          <div class="body-text">Because the documents that I create for work contain confidential information, I chose to design a diagram in Adobe Illustrator in my free time to demonstrate my experience with the software. 
-		  I decided to create a graphic that provides a functional overview of the ports at the rear of my PC, to mimic the types of graphics I've created for work.</div>
+          <div class="body-text">When my department at the University of Minnesota purchased a new, industrial coffee maker, it was an exciting addition to our office space. 
+		  We soon discovered, however, that the instruction manual included with the new machine was confusing and difficult to read.</div>
+          <div class="body-text">I decided to take the opportunity to write my own user guide for the coffee machine.  
+		  The audience for my guide was other employees in my department, in particular student employees who would be responsible for brewing coffee for departmental events.</div>
         </div>
 	      
 	<div class="subheader-text">Process</div>
         <div class="project-details-content">
-          <div class="body-text">When I decided on the subject for my diagram, I began by taking reference photos of the panel on my PC that I would be diagramming. 
-		While many of the ports were labelled, I had to conduct research on some of the ports to understand their purpose and technical names. 
-		I then sketched out a rough draft of the diagram on paper to plan out how to organize the information I wanted to include in the image.</div>
-          <div class="body-text">As I built the diagram in Adobe Illustrator, I combined my past experience using the program with the design principles I learned in my Technical Communication courses at the University of Minnesota. 
-		I made sure that elements in the diagram were aligned properly, and that I used consistent formatting to create a visually appealing end product.
+          <div class="body-text">I started by outlining my user guide in a simple text document, to plan out what sections would be necessary to include. 
+		I drafted the initial instructions and made note of steps where I would need to include an image to assist the user.</div>
+          <div class="body-text">Once my plan was complete, I began writing the user guide using Oxygen XML Editor. 
+		The Oxygen software allowed me to create a DITA map to easily organize and eventually publish my guide. 
+		As I worked on the text of the guide, I also took pictures of different stages in the brewing process and attached those to the document.
+		</div>
+	<div class="body-text">After I finished my first draft of the user guide, I asked two student employees to help test the document for me. 
+		The employees both operated the machine using the guide, making notes of areas where they were confused or uncertain about any of the steps. 
+		I compiled their feedback and used it to adjust the document, making it more user-friendly for its target audience.
 		</div>
         </div>
 	      
 	<div class="subheader-text">Impact</div>
         <div class="project-details-content">
-          <div class="body-text">While this was a personal project, creating the diagram helped me gain a deeper understanding of the functions of the ports on my PC. 
-		I'm proud of the visual guide that I've created, and grateful for the experience with Adobe Illustrator that inspired the project.</div>
+          <div class="body-text">The user guide I created for this coffee machine is simple and straightforward. 
+		It allowed all employees in our department to quickly learn how to use our office's new machine, and contributed to the success of our departmental events and the caffeination of our staff.</div>
 	  <div class="body-text">
 		<a class="button" target="_blank" href="https://drive.google.com/file/d/1nlpkI50VKhHFtgbGfj5DpEWS74yahG1x/view?usp=sharing">
           	<span class="button-text">View the Full User Guide</span>
@@ -110,12 +114,12 @@
                   - IMAGE_CAPTION: to the caption of the image
             -->
             <div class="gallery-image-container half-width">
-              <img src="../assets/images/pcdiagramoverview.png" alt="Screenshot of the PC functional diagram, depicting the back panel of a computer with each port labelled" class="gallery-image">
-              <span class="image-caption">The finished diagram of the PC rear panel, with ports labelled by function.</span>
+              <img src="../assets/images/coffee-sample1.png" alt="Screenshot of section 2 of the user guide, showing a couple of steps and an embedded image of a switch on the machine" class="gallery-image">
+              <span class="image-caption">The user guide was written in XML and includes structured steps, embedded images, and additional elements such as cautions.</span>
             </div>
-            <div class="gallery-image-container half-width">
-              <img src="../assets/images/pcdiagramdetail.png" alt="Screenshot of a close-up view of the diagram, showing the details of several ports" class="gallery-image">
-              <span class="image-caption">Close-up on details in the diagram. Each port was created by hand in Illustrator.</span>
+	<div class="gallery-image-container half-width">
+              <img src="../assets/images/coffee-sample2.png" alt="Screenshot of section 3 of the user guide, showing additional numbered steps" class="gallery-image">
+              <span class="image-caption">I wrote the steps of the user guide in simple, instructional language.</span>
             </div>
         </div>
       </div>
