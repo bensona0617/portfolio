@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+     <link rel="icon" href="../assets/images/favicon.ico" />
+     <title>Alyssa Benson's Portfolio</title>
+    <meta name="description" content="A personal porfolio for Alyssa Benson.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <span class="nav-title">Alyssa Benson</span>
+        <a class="button" href="mailto:bensona0617@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+          <!-- 
+            TODO
+
+            - Change the 'main-title' text to the name of your project
+            - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
+            - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
+          -->
+        <div class="main-title">Functional Diagram of PC Rear Panel</div>
+        <div class="body-text">I created this diagram to demonstrate my experience designing clear visual documents with Adobe Illustrator.</div>
+        <image class="project-header-image" src="../assets/images/pc-header.png" alt="Screenshot of a portion of the PC Functional Diagram">
+      </div>
+
+      <!-- PROJECT DETAILS -->
+      <!-- 
+        TODO
+
+        - Change the 'subheader-text' to whatever header you want for project details
+        - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
+      -->
+      <div id="project-details">
+        <div class="subheader-text">Context</div>
+        <div class="project-details-content">
+          <div class="body-text">In my role as a Technical Writer, I've developed my skills with various software in addition to writing and editing. 
+		  One area in particular that I've developed is my familiarity with Adobe products, including Adobe Illustrator.</div>
+          <div class="body-text">Because the documents that I create for work contain confidential information, I chose to design a diagram in Adobe Illustrator in my free time to demonstrate my experience with the software. 
+		  I decided to create a graphic that provides a functional overview of the ports at the rear of my PC, to mimic the types of graphics I've created for work.</div>
+        </div>
+	      
+	<div class="subheader-text">Process</div>
+        <div class="project-details-content">
+          <div class="body-text">When I decided on the subject for my diagram, I began by taking reference photos of the panel on my PC that I would be diagramming. 
+		While many of the ports were labelled, I had to conduct research on some of the ports to understand their purpose and technical names. 
+		I then sketched out a rough draft of the diagram on paper to plan out how to organize the information I wanted to include in the image.</div>
+          <div class="body-text">As I built the diagram in Adobe Illustrator, I combined my past experience using the program with the design principles I learned in my Technical Communication courses at the University of Minnesota. 
+		I made sure that elements in the diagram were aligned properly, and that I used consistent formatting to create a visually appealing end product.
+		</div>
+        </div>
+	      
+	<div class="subheader-text">Impact</div>
+        <div class="project-details-content">
+          <div class="body-text">While this was a personal project, creating the diagram helped me gain a deeper understanding of the functions of the ports on my PC. 
+		I'm proud of the visual guide that I've created, and grateful for the experience with Adobe Illustrator that inspired the project.</div>
+	  <div class="body-text">
+		<a class="button" target="_blank" href="https://drive.google.com/file/d/1CscUg6StXV6-_8jN6VETzqmhoFdbb1b2/view?usp=sharing">
+          	<span class="button-text">View the Functional Diagram</span>
+		<image src="../assets/icons/arrow-right.svg" alt="" class="right-arrow-icon"/>
+        	</a>
+	  </div>
+        </div>
+	      
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">
+            <!-- 
+              TODO
+
+              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
+
+              Full Width Image:
+
+                <div class="gallery-image-container">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              Half Width Image: 
+
+                <div class="gallery-image-container half-width">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
+                  - IMAGE_NAME: the name of the image file in assets/images
+                  - IMAGE_CAPTION: to the caption of the image
+            -->
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/pcdiagramoverview.png" alt="Screenshot of the PC functional diagram, depicting the back panel of a computer with each port labelled" class="gallery-image">
+              <span class="image-caption">The finished diagram of the PC rear panel, with ports labelled by function.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/pcdiagramdetail.png" alt="Screenshot of a close-up view of the diagram, showing the details of several ports" class="gallery-image">
+              <span class="image-caption">Close-up on details in the diagram. Each port was created by hand in Illustrator.</span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <!-- 
+        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/bensona0617/">
+        <image src="../assets/icons/linkedin.svg" alt="Alyssa's LinkedIn" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change the email after "mailto" to your contact email 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" href="mailto:bensona0617@gmail.com">
+        <image src="../assets/icons/mail.svg" alt="Alyssa's email" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>
